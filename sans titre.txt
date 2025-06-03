@@ -1,0 +1,280 @@
+site-anti-arnaque
+‎<!DOCTYPE html>
+‎<html lang="fr">
+‎<head>
+‎  <meta charset="UTF-8">
+‎  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+‎  <title>Anti Arnaque : devenir expert et être rémunéré</title>
+‎  <style>
+‎    body {
+‎      font-family: Arial, sans-serif;
+‎      margin: 0; padding: 0;
+‎      background: linear-gradient(to bottom, #dbe9f4, #fff);
+‎      color: #333;
+‎    }
+‎
+‎    header {
+‎      background-color: #004c99;
+‎      color: white;
+‎      padding: 1rem;
+‎      display: flex;
+‎      justify-content: space-between;
+‎      align-items: center;
+‎    }
+‎
+‎    .logo {
+‎      font-size: 1.5rem;
+‎      display: flex;
+‎      align-items: center;
+‎    }
+‎
+‎    .logo span {
+‎      margin-left: 0.5rem;
+‎    }
+‎
+‎    nav a {
+‎      color: white;
+‎      margin: 0 10px;
+‎      text-decoration: none;
+‎    }
+‎
+‎    .hero {
+‎      padding: 2rem;
+‎      text-align: center;
+‎    }
+‎
+‎    .hero img {
+‎      width: 100px;
+‎      margin-bottom: 1rem;
+‎    }
+‎
+‎    .language-switch {
+‎      text-align: center;
+‎      margin: 1rem 0;
+‎    }
+‎
+‎    .language-switch button {
+‎      margin: 0 5px;
+‎      padding: 0.5rem 1rem;
+‎      cursor: pointer;
+‎    }
+‎
+‎    footer {
+‎      background-color: #004c99;
+‎      color: white;
+‎      text-align: center;
+‎      padding: 1rem;
+‎      margin-top: 2rem;
+‎    }
+‎  </style>
+‎</head>
+‎<body>
+‎  <header>
+‎    <div class="logo">🫆 <span>Anti Arnaque</span></div>
+‎    <nav>
+‎      <a href="index.html">Accueil</a>
+‎      <a href="apropos.html">À propos</a>
+‎      <a href="services.html">Services</a>
+‎      <a href="contact.html">Contact</a>
+‎      <a href="bancaire.html">Infos bancaires</a>
+‎    </nav>
+‎  </header>
+‎
+‎  <section class="hero">
+‎    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Emoji_u1f622.svg/2048px-Emoji_u1f622.svg.png" alt="Larme" width="80">
+‎    <h1>Votre compte est vide ? Il est temps d’agir !</h1>
+‎    <p>Devenez un expert en détection d’arnaques, sensibilisez les autres, et gagnez de l’argent.</p>
+‎    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Emoji_u1f60a.svg/2048px-Emoji_u1f60a.svg.png" alt="Sourire" width="80">
+‎  </section>
+‎
+‎  <section class="language-switch">
+‎    <button onclick="switchLang('fr')">Français</button>
+‎    <button onclick="switchLang('en')">English</button>
+‎  </section>
+‎
+‎  <footer>
+‎    © 2025 Anti Arnaque. Tous droits réservés.
+‎  </footer>
+‎
+‎  <script>
+‎    function switchLang(lang) {
+‎      alert("Fonction multilingue à implémenter : langue sélectionnée = " + lang);
+‎    }
+‎  </script>
+‎</body>
+‎</html>
+‎site-anti-arnaque/
+‎│
+‎├── index.html           --> Accueil
+‎├── apropos.html         --> À propos
+‎├── services.html        --> Services
+‎├── contact.html         --> Contact
+‎└── bancaire.html        --> Infos bancaires
+‎<!DOCTYPE html>
+‎<html lang="fr">
+‎<head>
+‎  <meta charset="UTF-8">
+‎  <title>À propos - Anti Arnaque</title>
+‎  <link rel="stylesheet" href="style.css">
+‎</head>
+‎<body>
+‎  <header>
+‎    <div class="logo">🫆 <span>Anti Arnaque</span></div>
+‎    <nav>
+‎      <a href="index.html">Accueil</a>
+‎      <a href="apropos.html">À propos</a>
+‎      <a href="services.html">Services</a>
+‎      <a href="contact.html">Contact</a>
+‎      <a href="bancaire.html">Infos bancaires</a>
+‎    </nav>
+‎  </header>
+‎
+‎  <section class="hero">
+‎    <h1>Qui sommes-nous ?</h1>
+‎    <p>Anti Arnaque est une plateforme dédiée à la sensibilisation contre les arnaques numériques et à la formation de détecteurs d’arnaques rémunérés.</p>
+‎  </section>
+‎
+‎  <footer>
+‎    © 2025 Anti Arnaque. Tous droits réservés.
+‎  </footer>
+‎</body>
+‎</html>
+‎<!DOCTYPE html>
+‎<html lang="fr">
+‎<head>
+‎  <meta charset="UTF-8">
+‎  <title>Contact - Anti Arnaque</title>
+‎  <link rel="stylesheet" href="style.css">
+‎</head>
+‎<body>
+‎  <header>
+‎    <div class="logo">🫆 <span>Anti Arnaque</span></div>
+‎    <nav>
+‎      <a href="index.html">Accueil</a>
+‎      <a href="apropos.html">À propos</a>
+‎      <a href="services.html">Services</a>
+‎      <a href="contact.html">Contact</a>
+‎      <a href="bancaire.html">Infos bancaires</a>
+‎    </nav>
+‎  </header>
+‎
+‎  <section class="hero">
+‎    <h1>Contactez-nous</h1>
+‎    <form>
+‎      <input type="text" placeholder="Votre nom" required><br>
+‎      <input type="email" placeholder="Votre email" required><br>
+‎      <textarea placeholder="Votre message" required></textarea><br>
+‎      <button type="submit">Envoyer</button>
+‎    </form>
+‎  </section>
+‎
+‎  <footer>
+‎    © 2025 Anti Arnaque. Tous droits réservés.
+‎  </footer>
+‎</body>
+‎</html>
+‎<!DOCTYPE html>
+‎<html lang="fr">
+‎<head>
+‎  <meta charset="UTF-8">
+‎  <title>Enregistrement bancaire - Anti Arnaque</title>
+‎  <link rel="stylesheet" href="style.css">
+‎  <style>
+‎    form {
+‎      max-width: 400px;
+‎      margin: auto;
+‎      background: #f8f8f8;
+‎      padding: 1.5rem;
+‎      border-radius: 10px;
+‎      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+‎    }
+‎
+‎    input {
+‎      display: block;
+‎      width: 100%;
+‎      padding: 0.5rem;
+‎      margin-bottom: 1rem;
+‎    }
+‎
+‎    .secure {
+‎      text-align: center;
+‎      font-weight: bold;
+‎      color: green;
+‎      margin-bottom: 1rem;
+‎    }
+‎  </style>
+‎</head>
+‎<body>
+‎  <header>
+‎    <div class="logo">🫆 <span>Anti Arnaque</span></div>
+‎    <nav>
+‎      <a href="index.html">Accueil</a>
+‎      <a href="apropos.html">À propos</a>
+‎      <a href="services.html">Services</a>
+‎      <a href="contact.html">Contact</a>
+‎      <a href="bancaire.html">Infos bancaires</a>
+‎    </nav>
+‎  </header>
+‎
+‎  <section class="hero">
+‎    <h1>Ajoutez vos informations bancaires</h1>
+‎    <div class="secure">🔒 Page sécurisée (exemple)</div>
+‎    <form>
+‎      <input type="text" placeholder="Nom du titulaire" required>
+‎      <input type="text" placeholder="Numéro de carte" required>
+‎      <input type="text" placeholder="Date d'expiration (MM/AA)" required>
+‎      <input type="text" placeholder="Code CVV" required>
+‎      <button type="submit">Enregistrer</button>
+‎    </form>
+‎  </section>
+‎
+‎  <footer>
+‎    © 2025 Anti Arnaque. Tous droits réservés.
+‎  </footer>
+‎</body>
+‎</html>
+‎body {
+‎  font-family: Arial, sans-serif;
+‎  margin: 0; padding: 0;
+‎  background: linear-gradient(to bottom, #dbe9f4, #fff);
+‎  color: #333;
+‎}
+‎
+‎header {
+‎  background-color: #004c99;
+‎  color: white;
+‎  padding: 1rem;
+‎  display: flex;
+‎  justify-content: space-between;
+‎  align-items: center;
+‎}
+‎
+‎.logo {
+‎  font-size: 1.5rem;
+‎  display: flex;
+‎  align-items: center;
+‎}
+‎
+‎.logo span {
+‎  margin-left: 0.5rem;
+‎}
+‎
+‎nav a {
+‎  color: white;
+‎  margin: 0 10px;
+‎  text-decoration: none;
+‎}
+‎
+‎.hero {
+‎  padding: 2rem;
+‎  text-align: center;
+‎}
+‎
+‎footer {
+‎  background-color: #004c99;
+‎  color: white;
+‎  text-align: center;
+‎  padding: 1rem;
+‎  margin-top: 2rem;
+‎}
+‎
